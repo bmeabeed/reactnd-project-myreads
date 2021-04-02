@@ -4,12 +4,12 @@ The MyReads project allows you to select and categorize books you have read, are
 
 ## Install
 
-Th  project found in  [GitHup](https://github.com/bmeabeed/evaluate-news-nlp)
+Th  project found in  [GitHup](https://github.com/bmeabeed/reactnd-project-myreads)
 
 - Fork the the repo
 - Clone the project to your local machin 'Chose repository foler in your local machine to clone the project'
 
-`git https://github.com/{Your GitHup account}/evaluate-news-nlp.git`
+`git https://github.com/{Your GitHup account}/reactnd-project-myreads.git`
 
 - checkout the barnch **master**
 
