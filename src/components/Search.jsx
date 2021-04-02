@@ -1,6 +1,6 @@
 import React,{Component} from 'react'
 import Book from './Book';
-import {Link} from 'react-router-dom'
+
 import * as BooksAPI from '../BooksAPI'
 import PropTypes from 'prop-types';
 class Search extends Component{
@@ -39,7 +39,7 @@ render(){
   return(
       <div className="search-books">
       <div className="search-books-bar">
-      <Link to='/' className="close-search"/>
+      <button  onClick={()=>window.location.href="/"} className="close-search"/>
         <div className="search-books-input-wrapper">
           <input type="text" placeholder="Search by title or author" onChange={
             (event) => this.onChangeShearch(event.target.value)

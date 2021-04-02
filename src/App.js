@@ -23,6 +23,7 @@ class BooksApp extends React.Component {
    }));
   }
  
+  
 
   // Handel context menu selection change to move the book to the selected shelf
   onClickSelect = (book,shelf) =>{
@@ -35,8 +36,8 @@ class BooksApp extends React.Component {
             return bookEle; } )
          })
         // Return to main page after update the selected book state from search page
-        if(window.location.href.includes("search"))
-        window.location.href="/"
+      //  if(window.location.href.includes("search"))
+      //  window.location.href="/"
         })
    }
  
