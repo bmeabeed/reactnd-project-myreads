@@ -17,7 +17,7 @@ class Search extends Component{
 //Update search query state and perform search and update books state
   onChangeShearch = ( query) => {
    this.setState({
-     query: query.trim(),
+     query: query,
     });
     query!=='' && BooksAPI.search(query).then((resData) => this.setState({
       books: resData,
