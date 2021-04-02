@@ -19,6 +19,7 @@ class Search extends Component{
    this.setState({
      query: query,
     });
+    (query==='') && this.setState({books:[]})
     query!=='' && BooksAPI.search(query).then((resData) => this.setState({
       books: resData,
      }));
